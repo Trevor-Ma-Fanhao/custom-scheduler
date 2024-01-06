@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/Trevor-Ma-Famhao/custom-scheduler/pkg/plugins"
+	"github.com/Trevor-Ma-Fanhao/custom-scheduler/pkg/plugins"
 	"k8s.io/component-base/logs"
 	"k8s.io/kubernetes/cmd/kube-scheduler/app"
 )
