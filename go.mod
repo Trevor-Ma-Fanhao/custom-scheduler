@@ -1,4 +1,4 @@
-module github.com/Trevor-Ma-Famhao/custom-scheduler
+module github.com/Trevor-Ma-Fanhao/custom-scheduler
 
 go 1.18
 
