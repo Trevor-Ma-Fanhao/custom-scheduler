@@ -27,7 +27,13 @@ replace (
         k8s.io/sample-apiserver => /kubernetes/staging/src/k8s.io/sample-apiserver
 
 )
-
+require (
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/component-base v0.0.0
+	k8s.io/klog v1.0.0
+	k8s.io/kubernetes v0.0.0-00010101000000-000000000000
+)
 
 require (
 	github.com/Azure/go-ansiterm v0.0.0-20170929234023-d6e3b3328b78 // indirect
