@@ -318,7 +318,7 @@ func New(configuration *runtime.Unknown, f framework.FrameworkHandle) (framework
 	}, nil
 }
 
-var bostonFeatures = []string{"batch_size", "num_batches", "num_ps", "num_worker"}
+var Features = []string{"batch_size", "num_batches", "num_ps", "num_worker"}
 
 var featureData = [][]float64{
 	[]float64{32, 100, 1, 4},
